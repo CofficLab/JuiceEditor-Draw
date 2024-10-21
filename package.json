@@ -1,7 +1,7 @@
 {
   "name": "@juice-editor/draw",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "build": "copyfiles -u 2 --all 'drawio/webapp/**/*' dist/drawio"
