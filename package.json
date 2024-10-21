@@ -1,5 +1,5 @@
 {
-  "name": "@juice-editor/draw",
+  "name": "@coffic/juice-editor-draw",
   "version": "0.1.3",
   "type": "module",
   "scripts": {
