@@ -1,4 +1,4 @@
-# @juice-editor/draw
+# @coffic/juice-editor-draw
 
 JuiceEditor 是一个功能强大的编辑器，现已支持画图功能。以下是如何使用该功能的指南。
 
@@ -13,13 +13,13 @@ JuiceEditor 是一个功能强大的编辑器，现已支持画图功能。以�
 1. 安装包:
 
    ```bash
-   npm i @juice-editor/draw
+   npm i @coffic/juice-editor-draw
    ```
 
 2. 复制构件到项目目录:
 
    ```bash
-   cp -r node_modules/@juice-editor/draw/dist ./public/draw
+   cp -r node_modules/@coffic/juice-editor-draw/dist ./public/draw
    ```
 
 3. 配置编辑器:
