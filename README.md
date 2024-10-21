@@ -25,7 +25,7 @@ JuiceEditor 是一个功能强大的编辑器，现已支持画图功能。以�
 3. 配置编辑器:
 
    ```typescript
-   window.api.setDrawURL('http://localhost:5173/draw')
+   window.api.config.setDrawIoLink("http://localhost:5173/drawio/webapp/index.html?")
    ```
 
 ## 贡献
