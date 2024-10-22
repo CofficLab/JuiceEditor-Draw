@@ -1,37 +1,41 @@
-# @coffic/juice-editor-draw
+# JuiceEditor-Draw
 
-JuiceEditor 是一个功能强大的编辑器，现已支持画图功能。以下是如何使用该功能的指南。
+JuiceEditor is a powerful editor that now supports drawing functionality. Here's a guide on how to use this feature.
 
-## 功能特性
+![editor](./docs/hero.png)
 
-- **画图功能**: 允许用户在编辑器中创建和编辑图形。
-- **用户友好界面**: 提供直观的工具栏和快捷键。
-- **多种图形支持**: 支持矩形、圆形、线条等基本图形。
+## Installation
 
-## 安装
-
-1. 安装包:
+1. Install package:
 
    ```bash
+   npm i @coffic/juice-editor
    npm i @coffic/juice-editor-draw
    ```
 
-2. 复制构件到项目目录:
+2. Copy components to project directory:
 
    ```bash
    cp -r node_modules/@coffic/juice-editor-draw/dist ./public/draw
    ```
 
-3. 配置编辑器:
+3. Configure editor:
 
    ```typescript
    window.api.config.setDrawIoLink("http://localhost:5173/drawio/webapp/index.html?")
    ```
 
-## 贡献
+## Related Projects
 
-欢迎贡献代码！请提交 Pull Request 或报告问题。
+- [JuiceEditor](https://github.com/CofficLab/JuiceEditor)
+- [JuiceEditor-Draw](https://github.com/CofficLab/JuiceEditor-Draw)
+- [JuiceEditor-SwiftUI](https://github.com/cofficlab/JuiceEditor-SwiftUI)
+- [JuiceEditor-Examples](https://github.com/cofficlab/JuiceEditor-Examples)
 
-## 许可证
+## Contributing
 
-本项目采用 MIT 许可证。
+Contributions are welcome! Please submit Pull Requests or report issues.
+
+## License
+
+This project is licensed under the MIT License.
