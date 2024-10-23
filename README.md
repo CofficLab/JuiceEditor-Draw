@@ -47,3 +47,7 @@ Contributions are welcome! Please submit Pull Requests or report issues.
 ## License
 
 This project is licensed under the MIT License.
+
+## About the Author
+
+- [Nookery](https://github.com/nookery)
