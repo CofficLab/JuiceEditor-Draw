@@ -4,6 +4,12 @@ JuiceEditor is a powerful editor that now supports drawing functionality. Here's
 
 ![editor](./docs/hero.png)
 
+## Important
+
+This project cannot work independently. It is an extension package for JuiceEditor.
+
+Please read the JuiceEditor documentation first: [JuiceEditor](https://cofficlab.github.io/en/juiceEditor/documents/components/image.html#draw-a-picture)
+
 ## Installation
 
 1. Install package:
@@ -22,7 +28,9 @@ JuiceEditor is a powerful editor that now supports drawing functionality. Here's
 3. Configure editor:
 
    ```typescript
-   window.api.config.setDrawIoLink("http://localhost:5173/drawio/webapp/index.html?")
+   window.api.config.setDrawIoLink(
+     'http://localhost:5173/drawio/webapp/index.html?'
+   );
    ```
 
 ## Related Projects
