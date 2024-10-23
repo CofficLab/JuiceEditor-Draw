@@ -48,6 +48,6 @@ Contributions are welcome! Please submit Pull Requests or report issues.
 
 This project is licensed under the MIT License.
 
-## About the Author
+## Maintainers
 
 Work for Joy & Live for Love ➡️ <https://github.com/nookery>
