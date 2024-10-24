@@ -1,7 +1,5 @@
 # JuiceEditor-Draw
 
-JuiceEditor is a powerful editor that now supports drawing functionality. Here's a guide on how to use this feature.
-
 ![editor](./docs/hero.png)
 
 ## Important
