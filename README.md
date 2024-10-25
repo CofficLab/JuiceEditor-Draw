@@ -26,7 +26,7 @@ Please read the JuiceEditor documentation first: [JuiceEditor](https://cofficlab
 3. Configure editor:
 
    ```typescript
-   window.api.config.setDrawIoLink(
+   editor.setDrawLink(
      'http://localhost:5173/drawio/webapp/index.html?'
    );
    ```
@@ -37,6 +37,7 @@ Please read the JuiceEditor documentation first: [JuiceEditor](https://cofficlab
 - [JuiceEditor-Draw](https://github.com/CofficLab/JuiceEditor-Draw)
 - [JuiceEditor-SwiftUI](https://github.com/cofficlab/JuiceEditor-SwiftUI)
 - [JuiceEditor-Examples](https://github.com/cofficlab/JuiceEditor-Examples)
+- [JuiceEditor-Playground](https://github.com/cofficlab/JuiceEditor-Playground)
 
 ## Contributing
 
