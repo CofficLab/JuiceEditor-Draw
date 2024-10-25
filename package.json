@@ -3,6 +3,11 @@
   "version": "1.0.3",
   "homepage": "https://cofficlab.github.io/en/juiceEditor",
   "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "npm run clean && copyfiles -u 2 --all 'drawio/webapp/**/*' dist/",
     "clean": "rm -rf dist"
