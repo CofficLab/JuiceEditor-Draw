@@ -20,15 +20,14 @@ Please read the JuiceEditor documentation first: [JuiceEditor](https://cofficlab
 2. Copy components to project directory:
 
    ```bash
-   cp -r node_modules/@coffic/juice-editor-draw/dist ./public/draw
+   rm -rf ./public/draw
+   cp -rf node_modules/@coffic/juice-editor-draw/dist ./public/draw
    ```
 
 3. Configure editor:
 
    ```typescript
-   editor.setDrawLink(
-     'http://localhost:5173/drawio/webapp/index.html?'
-   );
+   editor.setDrawLink('http://localhost:5173/drawio/webapp/index.html?');
    ```
 
 ## Related Projects
