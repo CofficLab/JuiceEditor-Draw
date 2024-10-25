@@ -4,7 +4,8 @@
   "homepage": "https://cofficlab.github.io/en/juiceEditor",
   "type": "module",
   "scripts": {
-    "build": "copyfiles -u 2 --all 'drawio/webapp/**/*' dist/drawio"
+    "build": "npm run clean && copyfiles -u 2 --all 'drawio/webapp/**/*' dist/",
+    "clean": "rm -rf dist"
   },
   "devDependencies": {
     "copyfiles": "^2.4.1"
