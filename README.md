@@ -1,7 +1,5 @@
 # JuiceEditor-Draw
 
-JuiceEditor is a powerful editor that now supports drawing functionality. Here's a guide on how to use this feature.
-
 ![editor](./docs/hero.png)
 
 ## Important
@@ -22,15 +20,14 @@ Please read the JuiceEditor documentation first: [JuiceEditor](https://cofficlab
 2. Copy components to project directory:
 
    ```bash
-   cp -r node_modules/@coffic/juice-editor-draw/dist ./public/draw
+   rm -rf ./public/draw
+   cp -rf node_modules/@coffic/juice-editor-draw/dist ./public/draw
    ```
 
 3. Configure editor:
 
    ```typescript
-   window.api.config.setDrawIoLink(
-     'http://localhost:5173/drawio/webapp/index.html?'
-   );
+   editor.setDrawLink('http://localhost:5173/drawio/webapp/index.html?');
    ```
 
 ## Related Projects
@@ -39,6 +36,7 @@ Please read the JuiceEditor documentation first: [JuiceEditor](https://cofficlab
 - [JuiceEditor-Draw](https://github.com/CofficLab/JuiceEditor-Draw)
 - [JuiceEditor-SwiftUI](https://github.com/cofficlab/JuiceEditor-SwiftUI)
 - [JuiceEditor-Examples](https://github.com/cofficlab/JuiceEditor-Examples)
+- [JuiceEditor-Playground](https://github.com/cofficlab/JuiceEditor-Playground)
 
 ## Contributing
 

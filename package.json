@@ -1,10 +1,16 @@
 {
   "name": "@coffic/juice-editor-draw",
-  "version": "0.2.10",
+  "version": "1.0.5",
   "homepage": "https://cofficlab.github.io/en/juiceEditor",
   "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
-    "build": "copyfiles -u 2 --all 'drawio/webapp/**/*' dist/drawio"
+    "build": "npm run clean && copyfiles -u 2 --all 'drawio/webapp/**/*' dist/",
+    "clean": "rm -rf dist"
   },
   "devDependencies": {
     "copyfiles": "^2.4.1"
