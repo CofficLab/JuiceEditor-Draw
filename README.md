@@ -38,14 +38,24 @@ Please read the JuiceEditor documentation first: [JuiceEditor](https://cofficlab
 - [JuiceEditor-Examples](https://github.com/cofficlab/JuiceEditor-Examples)
 - [JuiceEditor-Playground](https://github.com/cofficlab/JuiceEditor-Playground)
 
+## NPM Packages
+
+- [juice-editor](https://www.npmjs.com/package/@coffic/juice-editor)
+- [juice-editor-draw](https://www.npmjs.com/package/@coffic/juice-editor-draw)
+
+## Maintainers
+
+Work for Joy & Live for Love ➡️ <https://github.com/nookery>
+
 ## Contributing
 
 Contributions are welcome! Please submit Pull Requests or report issues.
 
 ## License
 
-This project is licensed under the MIT License.
+JuiceEditor is released under a dual license:
 
-## Maintainers
+1. For non-commercial use: [MIT License](LICENSE)
+2. For commercial use or modifications: Please [contact the author](https://github.com/nookery) for a commercial license.
 
-Work for Joy & Live for Love ➡️ <https://github.com/nookery>
+Any use of this software for commercial purposes or any modifications to the source code require explicit permission from the author.
